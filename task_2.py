@@ -9,5 +9,8 @@ def fileFun():
             line_count += 1
     print("\nКоличество строк: ", line_count)
 
+    my_file.close()
+    my_f.close()
+
 
 fileFun()

@@ -40,4 +40,8 @@ def funStaff():
         if len(salaries) > 0:
             print(f"\nСредняя зарплата: {mean(salaries)}")
 
+        my_file.close()
+        my_f.close()
+
+
 funStaff()
